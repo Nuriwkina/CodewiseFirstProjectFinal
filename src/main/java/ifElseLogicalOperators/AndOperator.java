@@ -15,8 +15,8 @@ public class AndOperator {
         boolean isGlutenFree2 = false;
 
         /*
-        I want to buy a gluten free cake, if its  less than  25$
-        I can buy non gluten free cake, only if its less than 15$
+        1. I want to buy a gluten free cake, if its  less than  25$
+        2. I can buy non gluten free cake, only if its less than 15$
          */
 
         if (isGlutenFree1 && costOfTheCake1 < money) {
@@ -42,6 +42,7 @@ public class AndOperator {
 
         & AND -it will be
          */
+
 
 
 

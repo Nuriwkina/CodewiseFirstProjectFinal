@@ -2,11 +2,38 @@ package stringManipulation;
 
 public class CharAt {
     public static void main(String[] args) {
+        String str = "abcdefg";
+        System.out.println(str.charAt(3));
+        /*
+        charAt(int index) takes an integer
+        and returns char behind that integer
+        can only be used by String
+
+        indexOf(char c), method belongs to String class
+        takes a char in single quotes, returns the index
+        of this char
+         */
+
+        System.out.println(str.indexOf('c'));
+
+
+        int index = str.indexOf('g');
+        System.out.println(index);
 
         /*
         charAt() method that returns int
-        it belong to String class, and can only  be used by String in will returns us yhe char of o index
+        it belong to String class, and can only  be used by String in will returns us yhe char of  index
          */
+
+        //==========================================================================
+        /*
+        What if string has 2 or more same letters?
+      */
+
+        String str2 = "abcaccdeelaab";
+        System.out.println(str2 + ": " + str2.indexOf('b'));
+        int index2 = str2.indexOf('b', 5);
+        System.out.println(index2);
 
         String  name = "Angelina";
         /*
